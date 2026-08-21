@@ -42,7 +42,7 @@ Keep the GitHub Info website current with concise, practical updates for develop
 
 ## Update
 
-Review the current content in `site/content/github-info.md`, then update that file with useful, concise information based on the official sources. Use https://awesome-copilot.github.com/workflows/ as an additional source for Awesome Copilot workflows. Mention the source whenever a change comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows. Keep the existing editorial angle and avoid unsupported claims.
+Review the current content in `site/content/github-info.md`, then make at least one substantive change to that file based on the official sources. Do not finish without editing `site/content/github-info.md`. Use https://awesome-copilot.github.com/workflows/ as an additional source for Awesome Copilot workflows. Include source context in the updated content or PR description, naming the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows source for each relevant update. Keep the existing editorial angle and avoid unsupported claims.
 
 ## Pull Request
 
