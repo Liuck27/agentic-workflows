@@ -19,6 +19,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     draft: true
@@ -34,11 +35,12 @@ Keep the GitHub Info website current with concise, practical updates for develop
 1. Read `notes/mona-notes.md` and follow its editorial guidance.
 2. Use the web-fetch tool to read https://github.blog/latest/.
 3. Use the web-fetch tool to read https://github.blog/changelog/.
-4. Use the GitHub repository tools to read relevant repository guidance and reference files. Do not use terminal, CLI, or sandboxed commands for this repository research.
+4. Use the web-fetch tool to read https://awesome-copilot.github.com/workflows/.
+5. Use the GitHub repository tools to read relevant repository guidance and reference files. Do not use terminal, CLI, or sandboxed commands for this repository research.
 
 ## Update
 
-Review the current content in `site/content/github-info.md`, then update that file with useful, concise information based on the official sources. Mention the source whenever a change comes from the GitHub Blog or GitHub Changelog. Keep the existing editorial angle and avoid unsupported claims.
+Review the current content in `site/content/github-info.md`, then update that file with useful, concise information based on the official sources. Use https://awesome-copilot.github.com/workflows/ as an additional source for Awesome Copilot workflows. Mention the source whenever a change comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows. Keep the existing editorial angle and avoid unsupported claims.
 
 ## Pull Request
 
